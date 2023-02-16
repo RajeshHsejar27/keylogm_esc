@@ -1,40 +1,26 @@
-1.Extract the code into your Notepad.
-2.Paste ur credentials in the required places.
-3.Open CMD and use pip install to install secure-smtplib, ssl, pynput.
-Prior to this you should have installed python in ur machine.
-4.The password for sender's mail will not work initially.
-For the sender's password:
-Go to google account settings->
-::Go to Security tab and find App passwords
-::Add "mail" app in the app list and select "windows computer" from device's list.
-::Copy the generated password and paste it in the sender's password part.
-5.Save the file with .py extension. MINIMIZE the NOTEPAD.
-6.Go to CMD and pip install "pyinstaller".
-7.Open Powershell in the saved .py file's directory 
-|| Or || 
-you can just open Powershell and cd to the .py file's directory->
-::Type the following command:
+𝟏.𝑬𝒙𝒕𝒓𝒂𝒄𝒕 𝒕𝒉𝒆 𝒄𝒐𝒅𝒆 𝒊𝒏𝒕𝒐 𝒚𝒐𝒖𝒓 𝑵𝒐𝒕𝒆𝒑𝒂𝒅.<br>
+𝟐.𝑷𝒂𝒔𝒕𝒆 𝒖𝒓 𝒄𝒓𝒆𝒅𝒆𝒏𝒕𝒊𝒂𝒍𝒔 𝒊𝒏 𝒕𝒉𝒆 𝒓𝒆𝒒𝒖𝒊𝒓𝒆𝒅 𝒑𝒍𝒂𝒄𝒆𝒔.<br>
+𝟑.𝑶𝒑𝒆𝒏 𝑪𝑴𝑫 𝒂𝒏𝒅 𝒖𝒔𝒆 𝒑𝒊𝒑 𝒊𝒏𝒔𝒕𝒂𝒍𝒍 𝒕𝒐 𝒊𝒏𝒔𝒕𝒂𝒍𝒍 𝒔𝒆𝒄𝒖𝒓𝒆-𝒔𝒎𝒕𝒑𝒍𝒊𝒃, 𝒔𝒔𝒍, 𝒑𝒚𝒏𝒑𝒖𝒕.<br>
+𝑷𝒓𝒊𝒐𝒓 𝒕𝒐 𝒕𝒉𝒊𝒔 𝒚𝒐𝒖 𝒔𝒉𝒐𝒖𝒍𝒅 𝒉𝒂𝒗𝒆 𝒊𝒏𝒔𝒕𝒂𝒍𝒍𝒆𝒅 𝒑𝒚𝒕𝒉𝒐𝒏 𝒊𝒏 𝒖𝒓 𝒎𝒂𝒄𝒉𝒊𝒏𝒆.<br>
+𝟒.𝑻𝒉𝒆 𝒑𝒂𝒔𝒔𝒘𝒐𝒓𝒅 𝒇𝒐𝒓 𝒔𝒆𝒏𝒅𝒆𝒓'𝒔 𝒎𝒂𝒊𝒍 𝒘𝒊𝒍𝒍 𝒏𝒐𝒕 𝒘𝒐𝒓𝒌 𝒊𝒏𝒊𝒕𝒊𝒂𝒍𝒍𝒚. <br>
+𝑭𝒐𝒓 𝒕𝒉𝒆 𝒔𝒆𝒏𝒅𝒆𝒓'𝒔 𝒑𝒂𝒔𝒔𝒘𝒐𝒓𝒅: 𝑮𝒐 𝒕𝒐 𝒈𝒐𝒐𝒈𝒍𝒆 𝒂𝒄𝒄𝒐𝒖𝒏𝒕 𝒔𝒆𝒕𝒕𝒊𝒏𝒈𝒔-><br>
+::𝑮𝒐 𝒕𝒐 𝑺𝒆𝒄𝒖𝒓𝒊𝒕𝒚 𝒕𝒂𝒃 𝒂𝒏𝒅 𝒇𝒊𝒏𝒅 𝑨𝒑𝒑 𝒑𝒂𝒔𝒔𝒘𝒐𝒓𝒅𝒔 <br>
+::𝑨𝒅𝒅 "𝒎𝒂𝒊𝒍" 𝒂𝒑𝒑 𝒊𝒏 𝒕𝒉𝒆 𝒂𝒑𝒑 𝒍𝒊𝒔𝒕 𝒂𝒏𝒅 𝒔𝒆𝒍𝒆𝒄𝒕 "𝒘𝒊𝒏𝒅𝒐𝒘𝒔 𝒄𝒐𝒎𝒑𝒖𝒕𝒆𝒓" 𝒇𝒓𝒐𝒎 𝒅𝒆𝒗𝒊𝒄𝒆'𝒔 𝒍𝒊𝒔𝒕. <br>
+::𝑪𝒐𝒑𝒚 𝒕𝒉𝒆 𝒈𝒆𝒏𝒆𝒓𝒂𝒕𝒆𝒅 𝒑𝒂𝒔𝒔𝒘𝒐𝒓𝒅 𝒂𝒏𝒅 𝒑𝒂𝒔𝒕𝒆 𝒊𝒕 𝒊𝒏 𝒕𝒉𝒆 𝒔𝒆𝒏𝒅𝒆𝒓'𝒔 𝒑𝒂𝒔𝒔𝒘𝒐𝒓𝒅 𝒑𝒂𝒓𝒕.<br>
+𝟓.𝑺𝒂𝒗𝒆 𝒕𝒉𝒆 𝒇𝒊𝒍𝒆 𝒘𝒊𝒕𝒉 .𝒑𝒚 𝒆𝒙𝒕𝒆𝒏𝒔𝒊𝒐𝒏. 𝑴𝑰𝑵𝑰𝑴𝑰𝒁𝑬 𝒕𝒉𝒆 𝑵𝑶𝑻𝑬𝑷𝑨𝑫.<br>
+𝟔.𝑮𝒐 𝒕𝒐 𝑪𝑴𝑫 𝒂𝒏𝒅 𝒑𝒊𝒑 𝒊𝒏𝒔𝒕𝒂𝒍𝒍 "𝒑𝒚𝒊𝒏𝒔𝒕𝒂𝒍𝒍𝒆𝒓".<br>
+𝟕.𝑶𝒑𝒆𝒏 𝑷𝒐𝒘𝒆𝒓𝒔𝒉𝒆𝒍𝒍 𝒊𝒏 𝒕𝒉𝒆 𝒔𝒂𝒗𝒆𝒅 .𝒑𝒚 𝒇𝒊𝒍𝒆'𝒔 𝒅𝒊𝒓𝒆𝒄𝒕𝒐𝒓𝒚 <br>
+|| 𝑶𝒓 ||  <br>
+𝒚𝒐𝒖 𝒄𝒂𝒏 𝒋𝒖𝒔𝒕 𝒐𝒑𝒆𝒏 𝑷𝒐𝒘𝒆𝒓𝒔𝒉𝒆𝒍𝒍 𝒂𝒏𝒅 𝒄𝒅 𝒕𝒐 𝒕𝒉𝒆 .𝒑𝒚 𝒇𝒊𝒍𝒆'𝒔 𝒅𝒊𝒓𝒆𝒄𝒕𝒐𝒓𝒚-> 
+<br>
+::𝑻𝒚𝒑𝒆 𝒕𝒉𝒆 𝒇𝒐𝒍𝒍𝒐𝒘𝒊𝒏𝒈 𝒄𝒐𝒎𝒎𝒂𝒏𝒅: 
+<br><br> 𝒑𝒚𝒊𝒏𝒔𝒕𝒂𝒍𝒍𝒆𝒓 --𝒐𝒏𝒆𝒇𝒊𝒍𝒆 -𝒘 '𝒇𝒊𝒍𝒆𝒏𝒂𝒎𝒆.𝒑𝒚' <br><br>
+::𝑨𝒕 𝒕𝒉𝒆 𝒑𝒍𝒂𝒄𝒆 𝒐𝒇 𝒇𝒊𝒍𝒆𝒏𝒂𝒎𝒆, 𝒈𝒊𝒗𝒆 𝒕𝒉𝒆 𝒇𝒊𝒍𝒆𝒏𝒂𝒎𝒆 𝒘𝒉𝒊𝒄𝒉 𝒖 𝒖𝒔𝒆𝒅.<br>
+::𝑷𝒓𝒆𝒔𝒔 𝑬𝒏𝒕𝒆𝒓. ::𝑰𝒕 𝒘𝒊𝒍𝒍 𝒃𝒖𝒊𝒍𝒅 𝒕𝒉𝒆 𝒑𝒂𝒄𝒌𝒂𝒈𝒆 𝒊𝒏 𝒕𝒉𝒆 𝒔𝒂𝒎𝒆 𝒅𝒊𝒓𝒆𝒄𝒕𝒐𝒓𝒚.<br>
+𝟖.𝒀𝒐𝒖 𝒘𝒊𝒍𝒍 𝒏𝒐𝒘 𝒔𝒆𝒆 𝒕𝒉𝒆 𝒇𝒐𝒍𝒅𝒆𝒓: "𝒃𝒖𝒊𝒍𝒅" ,𝒇𝒊𝒍𝒆: "𝒇𝒊𝒍𝒆𝒏𝒂𝒎𝒆.𝒔𝒑𝒆𝒄",𝒆𝒙𝒆 𝒇𝒊𝒍𝒆: 𝒇𝒊𝒍𝒆𝒏𝒂𝒎𝒆.𝒆𝒙𝒆 <br>
+::𝑹𝒖𝒏 𝒕𝒉𝒆 𝒆𝒙𝒆 𝒇𝒊𝒍𝒆 𝒂𝒏𝒅 𝒊𝒕 𝒘𝒊𝒍𝒍 𝒔𝒕𝒂𝒓𝒕 𝒕𝒐 𝒓𝒆𝒄𝒐𝒓𝒅 𝒕𝒉𝒆 𝒌𝒆𝒚𝒔𝒕𝒓𝒐𝒌𝒆𝒔 𝒖𝒏𝒕𝒊𝒍 𝑬𝒔𝒄 𝒌𝒆𝒚 𝒊𝒔 𝒑𝒓𝒆𝒔𝒔𝒆𝒅. <br>
+::𝑨𝒇𝒕𝒆𝒓 𝒕𝒉𝒆 𝑬𝒔𝒄 𝒌𝒆𝒚 𝒆𝒗𝒆𝒏𝒕, 𝒚𝒐𝒖 𝒘𝒊𝒍𝒍 𝒈𝒆𝒕 𝒕𝒉𝒆 𝒌𝒆𝒚𝒍𝒐𝒈 𝒎𝒂𝒊𝒍 𝒊𝒏 𝒕𝒉𝒆 𝒓𝒆𝒄𝒊𝒑𝒊𝒆𝒏𝒕'𝒔 𝒎𝒂𝒊𝒍.<br><br>
 
-pyinstaller --onefile -w 'filename.py'
-
-::At the place of filename, give the filename which u used.
-::Press Enter.
-::It will build the package in the same directory.
-8.You will now see the folder: "build" ,file: "filename.spec",exe file: filename.exe
-::Run the exe file and it will start to record the keystrokes until Esc key is pressed.
-::After the Esc key event, you will get the keylog mail in the recipient's mail.
-
-Note::
-It is highly likeable that the exe file will get blocked by the system's antivirus.
-So, the antivirus protection should be disabled incase it does block and u can,
-::either redo the steps from starting on creating a new exe file or,
-::just go to antivirus settings and remove the exe file from quarantined threats, also during this,
-if you didnt find the exe file to be restored, just open the minimized notepad and "ctrl+s" to make the file appear and convert it to exe.
-
-Additional::
-This is for the sole purpose of testing out the keylogger and its concept working.
-You can even make modifications to the code to change how it works,like :
-::Instead of Esc key you can use anyother to exit the program
-::Make some modifications in the format of how the key log should appear
-::Format of the keys pressed like enter,shift,capslock can be changed to view better.
-::Also a timer can run around which would record the keystrokes for that time being.
+<ins>𝑺𝒄𝒓𝒆𝒆𝒏𝒔𝒉𝒐𝒕𝒔:<br></ins>
+![keylog1](https://user-images.githubusercontent.com/80874249/219389476-11f8a96f-16c0-4587-9e04-79498cae2acc.PNG)
+![keylog2](https://user-images.githubusercontent.com/80874249/219389493-1bf41a52-2d05-4b3c-9cfe-d308eacfeb6c.PNG)
